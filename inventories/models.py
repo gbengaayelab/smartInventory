@@ -3,7 +3,8 @@ from django.db import models
 STATUS_ASSET = (
     ('operational', 'OPERATIONAL'),
     ('need_upgrade', 'NEEDS UPGRADE'),
-    ('faulty', 'FAULTY')
+    ('faulty', 'FAULTY'),
+    ('retrieved', 'RETRIEVED')
 
 )
 STATUS_ASSET_LOCATION = (
